@@ -1,0 +1,15 @@
+#ratings img {
+    width: 75%;
+}
+
+.ratings-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+    #ratings img {
+        width: 55%;
+    }
+}
