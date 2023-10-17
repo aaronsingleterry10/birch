@@ -2,15 +2,19 @@ body {
     font-family: Helvetica;
 }
 
+section {
+    margin-bottom: 5rem;
+}
+
 .main-header {
     font-weight: 700;
 }
 
-.top-subheader {
+.subheader {
     margin-bottom: 1rem;
 }
 
-.top-subheader span {
+.subheader span {
     color: #936a19;
     font-weight: 700;
 }
@@ -32,6 +36,51 @@ body {
 
 .headline {
     font-weight: 700;
+}
+
+.video-wrapper {
+    position: relative; 
+    padding-bottom: 39.25%;
+    padding-top: 25px;
+    margin-bottom: 4.5rem;
+}
+
+.video-wrapper iframe {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+}
+
+.button-wrap {
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #e4a933;
+    color: #373737;
+    border: none;
+    font-weight: 700;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.custom-card-color {
+    background-color: #efebd8;
+    padding: 3rem;
+}
+
+.custom-card-color h2, .half-custom-card h2 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.custom-card-color-text {
+    margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 575px) {
