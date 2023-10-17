@@ -3,7 +3,9 @@ body {
 }
 
 section {
+    margin-top: 3rem;
     margin-bottom: 5rem;
+    
 }
 
 label {
@@ -11,6 +13,9 @@ label {
 }
 
 .contact-us-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #d3d3d3;
     padding: 3rem;
     box-shadow: 1px 9px 11px 3px hsl(0deg 0% 50% / 25%);
@@ -18,6 +23,14 @@ label {
 
 .contact-us-form input, .contact-us-form textarea {
     border: 1px solid #e4a933;
+}
+
+.thank-you {
+    text-align: center;
+}
+
+.green-check {
+    margin-bottom: 1.3rem;
 }
 
 .main-header {
@@ -111,9 +124,39 @@ label {
     }
 }
 
+@media screen and (max-width: 367px) {
+    .contact-us-form {
+        height: 97vh;
+    }
+}
+
+@media screen and (min-width: 366px) and (max-width: 478px) {
+    .contact-us-form {
+        height: 95vh;
+    }
+}
+
+@media screen and (min-width: 479px) and (max-width: 767px) {
+    .contact-us-form {
+        height: 92vh;
+    }
+}
+
 @media screen and (min-width: 576px) and (max-width: 767px) {
     #ratings img {
         height: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contact-info-section {
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contact-us-form {
+        height: 73vh;
     }
 }
 
