@@ -69,12 +69,12 @@ section {
     height: 2.5rem;
 }
 
-.custom-card-color {
+.custom-card-color, .half-custom-card-color {
     background-color: #efebd8;
     padding: 3rem;
 }
 
-.custom-card-color h2, .half-custom-card h2 {
+.card-header {
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
