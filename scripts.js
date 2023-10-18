@@ -18,7 +18,6 @@
 
     contactFormSubmit.addEventListener("click", function (e) {
         e.preventDefault();
-        console.log("button clicked");
         if (validateForm() === false) {
             alert("Form must be filled out");
         } else {
