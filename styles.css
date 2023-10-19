@@ -2,6 +2,12 @@ body {
     font-family: Helvetica;
 }
 
+.decom>* {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
 section {
     margin-bottom: 5rem;
 }
@@ -10,8 +16,31 @@ label {
     font-weight: 700;
 }
 
-ul {
+p, li {
+    font-weight: 400;
+}
+
+.toc ul {
     list-style: none;
+}
+
+.toc li {
+    display: flex;
+}
+
+.key-takeaways {
+    padding: 3rem;
+    border: 2px solid #E2A924;
+}
+
+.side-article {
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border: 1px solid #E2A924;
+}
+
+.side-article p, .side-article span {
+    font-size: 12px;
 }
 
 .contact-us-form {
@@ -42,6 +71,8 @@ ul {
 
 .subheader {
     margin-bottom: 1rem;
+    color: #936a19;
+    font-weight: 700;
 }
 
 .subheader h6 {
@@ -100,6 +131,11 @@ ul {
     padding: 3rem;
 }
 
+.header-wrap h5 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
 .card-header {
     font-weight: 700;
     margin-bottom: 1.5rem;
@@ -132,6 +168,7 @@ ul {
 
 .sub-section, .share-section {
     display: flex;
+    margin-bottom: .75rem;
 }
 
 .share {
