@@ -9,7 +9,7 @@ body {
 }
 
 section {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 label {
@@ -48,13 +48,23 @@ p, li {
     border-left: 2px solid #E2A924;
 }
 
+.quote-section p {
+    margin-top: 1rem;
+}
+
 .text-section ol {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.video-wrapper {position: relative; padding-bottom: 56.25%; /* 16:9 */  padding-top: 25px;}
-.video-wrapper iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+/* .video-wrapper {position: relative; padding-bottom: 56.25%; padding-top: 25px;}
+.video-wrapper iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;} */
 
 .side-article {
     margin-bottom: 3rem;
@@ -122,16 +132,16 @@ p, li {
 }
 
 .img-wrapper {
-    position: relative; 
+    /* position: relative; 
     padding-bottom: 39.25%;
-    padding-top: 25px;
+    padding-top: 25px; */
     margin-bottom: 1.5rem;
 }
 
 .img-wrapper img {
-    position: absolute; 
+    /* position: absolute; 
     top: 0; 
-    left: 0; 
+    left: 0;  */
     width: 100%; 
     height: 100%;
 }
@@ -159,6 +169,11 @@ p, li {
     font-weight: 700;
 }
 
+.side-header-wrap h5 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
 .card-header {
     font-weight: 700;
     margin-bottom: 1.5rem;
@@ -166,7 +181,6 @@ p, li {
 
 .custom-card-color-text {
     display: flex;
-    margin-bottom: 1.5rem;
 }
 
 .info {
@@ -189,9 +203,14 @@ p, li {
     height: 22px;
 }
 
-.sub-section, .share-section {
+.sub-section {
     display: flex;
+    align-items: center;
     margin-bottom: .75rem;
+}
+
+.share-section {
+    display: flex;
 }
 
 .share {
