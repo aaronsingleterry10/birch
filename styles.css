@@ -17,7 +17,7 @@ label {
 }
 
 p, li {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .toc ul {
@@ -32,6 +32,29 @@ p, li {
     padding: 3rem;
     border: 2px solid #E2A924;
 }
+
+.main-content h2 {
+    margin-bottom: 3rem;
+}
+
+.main-content .text-section p {
+    margin-bottom: 2rem;
+}
+
+.quote-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: .5rem 0 1px 2rem;
+    border-left: 2px solid #E2A924;
+}
+
+.text-section ol {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.video-wrapper {position: relative; padding-bottom: 56.25%; /* 16:9 */  padding-top: 25px;}
+.video-wrapper iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 
 .side-article {
     margin-bottom: 3rem;
@@ -243,6 +266,13 @@ li {
     .contact-info-section {
         margin-bottom: 5rem;
     }
+    .video-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    /* .video-wrapper iframe {
+        width: 80%;
+    } */
 }
 
 @media screen and (min-width: 768px) {
